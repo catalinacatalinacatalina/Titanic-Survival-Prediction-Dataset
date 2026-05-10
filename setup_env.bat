@@ -5,7 +5,7 @@
 python -m venv .venv
 call .venv\Scripts\activate
 python -m pip install --upgrade pip
-pip install numpy pandas scikit-learn joblib
+pip install numpy pandas scikit-learn joblib matplotlib
 pip install joblib
 pip freeze > requirements.txt
 venv\Scripts\activate
